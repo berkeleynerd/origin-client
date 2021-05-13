@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Welcome to ORIGIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css"/>
+    <link rel="stylesheet" type="text/css" href="css/term.css"/>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script type="text/javascript" src="js/origin.js"></script>
+</head>
+
+<body onload="setup()">
+
+<div class="container">
+    <div class="eight columns offset-by-two">
+        <div id="app">
+            <div id="term-box">
+                <div class="textframe" id="textframe">
+                </div>
+                <div id="input-table">
+                    <form method="POST" accept-charset="UTF-8" action="input" id="cmd-form">λ &gt; <input name="cmd" id="input-cmd" value="" autofocus autocomplete="off" placeholder=""/><input type="submit" value="Cmd (enter)" style="visibility:hidden;" onclick="submit_cmd(); return false;"/></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

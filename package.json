@@ -1,0 +1,15 @@
+{
+  "name": "origin-client",
+  "version": "1.0.0",
+  "description": "Web client for the Origin Mutli-User Interactive Fiction server",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -o",
+    "build": "gulp build"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "http-server": "^0.10.0"
+  }
+}

@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Aegyptus';
+    src:  url('../fonts/aegyptus/AegyptusR_hint.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AegyptusSubset';
+    src: url('../fonts/aegyptus/AegyptusSubset.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Fira Mono';
+    src:  url('../fonts/fira/FiraMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Mono';
+    src:  url('../fonts/fira/FiraMono-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-Bold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/raleway/Raleway-BoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+}
+
+#term-box {
+    margin-top:80px;
+    font-family: "Fira Mono", monospace;
+    background-color:transparent;
+}
+
+#term-box p {
+    word-wrap: break-word;
+    margin: 0 0 .3cm;
+}
+
+.history-input {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.txt-userinput {
+    color: #4B0082; /* Tyrean Indigo */
+}
+
+.txt-monospaced, .txt-userinput {
+    font-family: "Fira Mono", monospace;
+}
+
+.txt-esoteric-iconic {
+    font-family: Aegyptus, fantasy;
+    font-size: 6.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+    color: #66023C; /* Tyrean Purple */
+}
+
+.txt-esoteric {
+    font-family: Aegyptus, fantasy;
+    font-size: 4.0rem;
+    line-height: 1.0;
+    color: #66023C; /* Tyrean Purple */
+}
+
+.txt-translation {
+    font-family: "Fira Mono", monospace;
+    font-size: 1.5rem;
+    line-height: 1.0;
+    color: #66023C; /* Tyrean Purple */
+}
+
+#input-table {
+    display:table;
+    width:100%;
+    color: #4B0082; /* Tyrean Indigo */
+}
+
+#color-list {
+    display:table;
+    width:100%;
+    color: #4B0082; /* Tyrean Indigo */
+    Carmine: #960018;
+    Crimson: #DC143C;
+    Lac: #FF2400;
+    Red:#BF3B26;
+    Vermilion: #E34234;
+    Rust: #985717;
+    Weld: #FFDE5A;
+    Turmeric: #CCB647;
+    Saffron: #F4C430;
+    Ochre: #CC7722;
+    Orpiment: #FCD21C;
+    Verdigris: #43B3AE;
+    Malachite: #1FA055;
+    ChinaGreen: #507D2A;
+    Woad: #56739A;
+    Indigo: #4B0082;
+    Turnsole: #DF73FF;
+    Ultramarine: #3F00FF;
+    Smalt: #0047AB;
+    WhiteLead: #F0EBE5;
+    Chalk: #F6F4F1;
+    Carbon: #130E0A;
+    Sepia: #AE8964;
+    IronGallInk: #18161B;
+}
+
+#input-cmd {
+    font-family: "Fira Mono", monospace;
+    display: table-cell;
+    width: 80%;
+    outline: none;
+    box-shadow: none;
+    padding-left: 0.0em;
+    border: 0;
+    white-space: pre;
+}
+
+.txt-item {
+    color: #077043; /* Osiris Green */
+}
